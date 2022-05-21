@@ -32,11 +32,11 @@ p {
 .nav-link:hover {
     color: #89E0E0;
 }
-.bake {
+#bake {
     padding-top: 2%;
     text-align: center;
 }
-#black-line {
+.black-line {
     width: 25%;
     margin: auto;
     color: #000000
@@ -48,19 +48,59 @@ p {
 .pink-line {
     border: 2px solid #F29EB0;
 }
-.why {
-    padding-top: 2%;
-    padding-bottom: 2%;
+.text {
+    padding: 2%;
     text-align: center;
 }
 .fa-regular {
     color: #F29EB0;
 }
-
-.recipephoto {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+#gallery {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.images {
+    display: flex;
+}
+.pic {
+    width: 27%;
+    margin: auto;
+    padding-bottom: 2%;
+}
+.user {
+    font-family: montserrat, monospace;
+    font-size: 27px;
+}
+.testimonials {
+    display: flex;
+}
+.comment  {
+    margin: auto;
+    border: 1px solid #F29EB0;
+    width: 30%;
+    padding: 1%;
+    text-align: center;
+}
+.form-control  {
+    border-color:#F29EB0;
+}
+.form {
+    display: flex;
+}
+.btn  {
+    background-color: #F29EB0; 
+}
+#footer {
+    background-color: white;
+    font-size: 25px;
+    color: #000000;
+}
+.fa-solid {
+    color: #F29EB0;
+}
+#address {
+    font-family: montserrat, monospace;
+    font-size: 25px;
+    text-align: center;
 }
