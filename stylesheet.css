@@ -56,3 +56,11 @@ p {
 .fa-regular {
     color: #F29EB0;
 }
+
+.recipephoto {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
