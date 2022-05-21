@@ -1,0 +1,15 @@
+body {
+    
+}
+.navbar {
+    background-color: #F9E2C7;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-family: oswald, monospace;
+    font-size: 20px;
+}
+.nav-link:hover {
+    font-size: larger;
+}
