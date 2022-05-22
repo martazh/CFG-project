@@ -73,6 +73,7 @@ p {
     font-family: montserrat, monospace;
     font-size: 27px;
 }
+/* try table here instead */
 .testimonials {
     display: flex;
 }
