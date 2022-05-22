@@ -143,3 +143,9 @@ table {
      text-align: center;
  }
  
+.recipepic {
+    height:400px;
+    width:auto;
+    float:left;
+}
+
