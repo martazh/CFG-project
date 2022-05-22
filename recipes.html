@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Bake First Girls</title>
-    <link rel="stylesheet" href="./stylesheet.css" />
     <!--fontawesome icons-->
     <script
       src="https://kit.fontawesome.com/82e15ac4f2.js"
@@ -15,12 +14,15 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <!--CSS link- replace link with the CSS for this html-->
+    <link rel="stylesheet" href="./stylesheet2.css" />
     <!-- JS doc  to be entered-->
     <script scr=""></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--montserrat and oswald google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&display=swap"
       rel="stylesheet"
@@ -32,52 +34,55 @@
         <a class="nav-link" href="./index.html">Home</a>
         <a class="nav-link" href="./recipes.html">Recipes</a>
         <!--replace logo if poss for better quality-->
-        <img src="./logo.png" alt="logo" />
+        <img class="logo" src="./logo.png" alt="logo" />
         <a class="nav-link" href="./about.html">About</a>
-        <a class="nav-link" href="index.html#contact">Contact</a>
+        <a class="nav-link" href="./index.html#contact">Contact</a>
       </nav>
     </header>
     <main>
-      <div>
+      <div class="recipe-block">
+      <div class="recipe">
+        <div>
         <a href="./mousse.html"
-          ><img
-            class="recipepic"
-            src="./mousse.jpeg"
-            alt="white chocolate mousse"
+          ><img class="img" src="./mousse.jpeg" alt="white chocolate mousse"
         /></a>
-        <a href="./mousse.html"><h1>White Chocolate Mousse</h1></a>
+        </div>
+        <div>
+        <a class="recipe-page" href="./mousse.html"><h1>White Chocolate Mousse</h1></a>
+      
         <p>
           <i class="fa-solid fa-heart"></i>
           <i class="fa-solid fa-heart"></i>
           <i class="fa-solid fa-heart"></i>
           <i class="fa-solid fa-heart"></i>
-          <i class="fa-regular fa-heart"></i>
-          Rating<a href="#mousse-rate">Rate</a>
+          <i class="fa-solid fa-heart"></i>
+            Rating
+            <!-- <a href="#mousse-rate">Rate</a> -->
         </p>
         <p>
-          <i class="fa-regular fa-clock"></i> Prep: 10mins | Cook: 3mins <br />
-          <br />
-          <i class="fa-solid fa-utensils"></i> Serves 10 <br />
-          <br />
-          <i class="fa-regular fa-lightbulb"></i> Easy <br />
-          <br />
+          <i class="fa-solid fa-regular fa-clock"></i> Prep: 10mins | Cook: 3mins <br />
+          <i class="fa-solid fa-utensils"></i> Serves 10<br />
+          <i class="fa-solid fa-lightbulb"></i> Easy
         </p>
-        <p>
+        </div>
+      </div>
+        <p class="description">
           Three ingredient white chocolate mousse, very simple to make. No egg,
           no fuss; just some heating, whipping, chilling and enjoying!
         </p>
       </div>
       <hr class="pink-line" />
-      <div>
-        <!--replace contents with your recipe of choice-->
+      <div class="recipe-block">
+      <div class="recipe">
+        <div>
         <a href="./lemonswissroll.html"
-          ><img
-            class="recipepic"
+          ><img class="img"
             src="./Lemonswissroll.jpg"
-            alt="lemon swiss
-          roll and amaretti trifle"
+            alt="lemon swiss roll and amaretti trifle"
         /></a>
-        <a href="./lemonswissroll.html"
+      </div>
+      <div>
+        <a class="recipe-page" href="./lemonswissroll.html"
           ><h1>Lemon Swiss Roll and Amaretti Trifle</h1></a
         >
         <p>
@@ -85,59 +90,60 @@
           <i class="fa-solid fa-heart"></i>
           <i class="fa-solid fa-heart"></i>
           <i class="fa-solid fa-heart"></i>
-          <i class="fa-regular fa-heart"></i>
-          <!--href="#something" something= ID assigned to the rating at the bottom of your recipe-->
-          Rating<a href="#mousse-rate">Rate</a>
+          <i class="fa-solid fa-heart"></i>
+           Rating
+           <!-- <a href="#mousse-rate">Rate</a> -->
         </p>
         <p>
-          <i class="fa-regular fa-clock"></i> Prep: 10mins | Cook: 3mins <br />
-          <br />
-          <i class="fa-solid fa-utensils"></i> Serves 10 <br />
-          <br />
-          <i class="fa-regular fa-lightbulb"></i> Easy <br />
-          <br />
+          <i class="fa-solid fa-clock"></i> Prep: 10mins | Cook: 3mins <br />
+          <i class="fa-solid fa-utensils"></i> Serves 10<br />
+          <i class="fa-solid fa-lightbulb"></i> Easy
         </p>
-        <p>A challenging bake with lots of steps, but worth the time.</p>
       </div>
+      </div>
+        <p class="description">A challenging bake with lots of steps, but worth the time.</p>
+      </div>
+    
       <hr class="pink-line" />
-      <div>
-        <!--replace contents with your recipe of choice-->
+      <div class="recipe-block">
+        <div class="recipe">
+          <div>
         <a href="./victoriasponge.html"
-          ><img
-            class="recipepic"
-            src="./victoriasponge.jpg"
-            alt="victoria sponge cake"
+          ><img class="img" src="./victoriasponge.jpg" alt="victoria sponge cake"
         /></a>
-        <a href="./victoriasponge.html"><h1>Victoria Sponge Cake</h1></a>
-        <p>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-regular fa-heart"></i>
-          <!--href="#something" something= ID assigned to the rating at the bottom of your recipe-->
-          Rating<a href="#mousse-rate">Rate</a>
-        </p>
-        <p>
-          <i class="fa-regular fa-clock"></i> Prep: 15mins | Cook: 30mins <br />
-          <br />
-          <i class="fa-solid fa-utensils"></i> Serves 8 <br />
-          <br />
-          <i class="fa-regular fa-lightbulb"></i> Easy <br />
-          <br />
-        </p>
-        <p>A British classic, serve with a cup of tea.</p>
-        <hr class="pink-line" />
       </div>
       <div>
-        <!--replace contents with your recipe of choice-->
+        <a class="recipe-page" href="./victoriasponge.html"><h1>Victoria Sponge Cake</h1></a>
+        <p>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-heart"></i>
+            Rating
+            <!-- <a href="#mousse-rate">Rate</a> -->
+        </p>
+        <p>
+          <i class="fa-solid fa-clock"></i> Prep: 15mins | Cook: 30mins <br />
+          <i class="fa-solid fa-utensils"></i> Serves 8<br />
+          <i class="fa-solid fa-lightbulb"></i> Easy
+        </p>
+      </div>
+    </div>
+        <p class="description">A British classic, serve with a cup of tea.</p>
+    </div>
+      <hr class="pink-line" />
+      <div class="recipe-block">
+        <div class="recipe">
+          <div>
         <a href="./shortbreadbuntingbiscuits.html"
-          ><img
-            class="recipepic"
+          ><img class="img"
             src="./shortbreadbuntingbiscuits.jpg"
             alt="short bread bunting biscuits"
         /></a>
-        <a href="./shortbreadbuntingbiscuits.html"
+      </div>
+      <div>
+        <a class="recipe-page" href="./shortbreadbuntingbiscuits.html"
           ><h1>Shortbread Bunting Biscuits</h1></a
         >
         <p>
@@ -145,35 +151,36 @@
           <i class="fa-solid fa-heart"></i>
           <i class="fa-solid fa-heart"></i>
           <i class="fa-solid fa-heart"></i>
-          <i class="fa-regular fa-heart"></i>
-          <!--href="#something" something= ID assigned to the rating at the bottom of your recipe-->
-          Rating<a href="#mousse-rate">Rate</a>
+          <i class="fa-solid fa-heart"></i>
+            Rating
+            <!-- <a href="#mousse-rate">Rate</a> -->
         </p>
         <p>
-          <i class="fa-regular fa-clock"></i> Prep: 1 hour | Cook: 15-20mins
+          <i class="fa-solid fa-clock"></i> Prep: 1 hour | Cook: 15-20mins
           <br />
-          <br />
-          <i class="fa-solid fa-utensils"></i> Makes 8 <br />
-          <br />
-          <i class="fa-regular fa-lightbulb"></i> Easy <br />
-          <br />
-        </p>
-        <p>
-          Fun bunting shaped bicuits decorated to suit the theme of your event
+          <i class="fa-solid fa-utensils"></i> Makes 8<br />
+          <i class="fa-solid fa-lightbulb"></i> Easy
         </p>
       </div>
+    </div>
+        <p class="description">
+          Fun bunting shaped bicuits decorated to suit the theme of your event.
+        </p>
+      </div>
+      <hr class="pink-line" />
     </main>
     <footer>
-      <nav class="navbar">
+      <nav  id="footer" class="navbar">
         <a class="nav-link" href="#">Features</a>
         <a class="nav-link" href="./about.html">About</a>
         <a class="nav-link" href="./index.html#testimonials">Testimonials</a>
         <a class="nav-link" href="./index.html#contact">Contact</a>
         <a class="nav-link" href="#">Download</a>
       </nav>
+      <hr class="black-line"> 
       <p id="address">
         12 Cupcake Street, Manchester, M1 2AB<br />
-        <i class="fa-solid fa-copyright"></i>Bake First Girls
+        <i class="fa-solid fa-copyright"></i> Bake First Girls
       </p>
     </footer>
   </body>
