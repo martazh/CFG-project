@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Bake First Girls</title>
-    <link rel="stylesheet" href="/stylesheet.css" />
     <!--fontawesome icons-->
     <script
       src="https://kit.fontawesome.com/82e15ac4f2.js"
@@ -15,12 +14,15 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <!--CSS link- replace link with the CSS for this html-->
+    <link rel="stylesheet" href="./stylesheet4.css" />
     <!-- JS doc  to be entered-->
     <script scr=""></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--montserrat and oswald google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&display=swap"
       rel="stylesheet"
@@ -32,224 +34,223 @@
         <a class="nav-link" href="./index.html">Home</a>
         <a class="nav-link" href="./recipes.html">Recipes</a>
         <!--replace logo if poss for better quality-->
-        <img src="./logo.png" alt="logo">
+        <img class="logo" src="./logo.png" alt="logo" />
         <a class="nav-link" href="./about.html">About</a>
-        <a class="nav-link" href="index.html#contact">Contact</a>
-    </nav>
+        <a class="nav-link" href="./index.html#contact">Contact</a>
+      </nav>
     </header>
     <main>
-      <div>
-        <img
-          class="recipephoto"
-          src="./Lemonswissroll.jpg"
-          alt="lemon swiss roll and amaretti trifle"
-        />
-        <br />
-        <h1>Lemon Swiss Roll and Amaretti Trifle</h1>
-        <p>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-regular fa-heart"></i>
-          Rating<a href="#lemonswissroll-rate">Rate</a>
-        </p>
-        <p>
-          <i class="fa-regular fa-clock"></i> Prep: over 2 hours | Cook: 30 mins
-          - 1 hour<br />
-          <br />
-          <i class="fa-solid fa-utensils"></i> Serves 20 <br />
-          <br />
-          <i class="fa-regular fa-lightbulb"></i> Complex
-          <br>
-          <br>
-        </p>
-        <p class="recipedescription">
-          This impressive pudding was winner of the Platinum Pudding Competition
-          making it the perfect dessert to celebrate the Platinum Jubilee of
-          Queen Elizabeth II.
-        </p>
-      </div>
+      <div class="recipe-block">
+        <div class="recipe">
+          <div>
+          <img class="img"
+              src="./Lemonswissroll.jpg"
+              alt="lemon swiss roll and amaretti trifle"
+          />
+        </div>
+        <div>
+          <h1>Lemon Swiss Roll and Amaretti Trifle</h1>
+          <p>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-heart"></i>
+             Rating
+             <!-- <a href="#mousse-rate">Rate</a> -->
+          </p>
+          <p>
+            <i class="fa-solid fa-clock"></i> Prep: 10mins | Cook: 3mins <br />
+            <i class="fa-solid fa-utensils"></i> Serves 10<br />
+            <i class="fa-solid fa-lightbulb"></i> Easy
+          </p>
+        </div>
+        </div>
+          <p class="description">A challenging bake with lots of steps, but worth the time.</p>
+        </div>
       <hr class="pink-line" />
-      <div>
-      </div>
-      <div>
-        <h2>Ingredients</h2>
+<div class="instructions">
+<div class="ingredients">
+        <h2>Ingredients</h2><br>
 
-        <h1><b>For the Swiss Roll</b></h1>
+        <h3><b>For the Swiss Roll</b></h3>
+  <div class="label">
         <!--SWISS ROLL-->
         <div class="checkbox">
-          <label><input type="checkbox" value="" />4 large eggs</label>
+          <label><input type="checkbox" value="" />  4 large eggs</label>
         </div>
         <div class="checkbox">
           <label
-            ><input type="checkbox" value="" />100g caster sugar, plus extra for
+            ><input type="checkbox" value="" />  100g caster sugar, plus extra for
             dusting</label
           >
         </div>
         <div class="checkbox">
           <label
-            ><input type="checkbox" value="" />100gr self-raising flour,
+            ><input type="checkbox" value="" />  100gr self-raising flour,
             sieved</label
           >
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" /> butter, for greasing</label>
+          <label><input type="checkbox" value="" />  butter, for greasing</label>
         </div>
-
-        <h1><b>For the Lemon Curd</b></h1>
+    </div><br>
+        <h3><b>For the Lemon Curd</b></h3>
         <!--LEMON CURD-->
+    <div class="label">
         <div class="checkbox">
-          <label><input type="checkbox" value="" />4 large egg yolks</label>
+          <label><input type="checkbox" value="" />  4 large egg yolks</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />135g sugar</label>
+          <label><input type="checkbox" value="" />  135g sugar</label>
         </div>
         <div class="checkbox">
           <label
-            ><input type="checkbox" value="" />85gr salted butter,
+            ><input type="checkbox" value="" />  85gr salted butter,
             softened</label
           >
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />1 Lemon, zest only</label>
+          <label><input type="checkbox" value="" />  1 Lemon, zest only</label>
         </div>
         <div class="checkbox">
           <label
-            ><input type="checkbox" value="" />80ml Fresh Lemon Juice</label
+            ><input type="checkbox" value="" />  80ml Fresh Lemon Juice</label
           >
         </div>
-
-        <h1><b>For the St Clement's Jelly</b></h1>
+    </div><br>
+        <h3><b>For the St Clement's Jelly</b></h3>
         <!--JELLY-->
+    <div class="label">
         <div class="checkbox">
-          <label><input type="checkbox" value="" />6 gelatine leaves</label>
+          <label><input type="checkbox" value="" />  6 gelatine leaves</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />4 unwaxed lemons</label>
+          <label><input type="checkbox" value="" />  4 unwaxed lemons</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />3 oranges</label>
+          <label><input type="checkbox" value="" />  3 oranges</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />150gr Caster Sugar</label>
+          <label><input type="checkbox" value="" />  150gr Caster Sugar</label>
         </div>
-        <h1><b>For the Custard</b></h1>
+    </div><br>
+        <h3><b>For the Custard</b></h3>
         <!--CUSTARD-->
+    <div class="label">
         <div class="checkbox">
-          <label><input type="checkbox" value="" />425ml double cream</label>
+          <label><input type="checkbox" value="" />  425ml double cream</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />3 large egg yolks</label>
+          <label><input type="checkbox" value="" />  3 large egg yolks</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />25gr caster sugar</label>
+          <label><input type="checkbox" value="" />  25gr caster sugar</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />1 tbsp cornflour</label>
+          <label><input type="checkbox" value="" />  1 tbsp cornflour</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />1 tsp lemon extract</label>
+          <label><input type="checkbox" value="" />  1 tsp lemon extract</label>
         </div>
-        <h1><b>For the amaretti biscuits</b></h1>
+    </div><br>
+        <h3><b>For the amaretti biscuits</b></h3>
         <!--Amaretti Biscuits-->
+    <div class="label">
         <div class="checkbox">
-          <label><input type="checkbox" value="" />2 large egg whites</label>
+          <label><input type="checkbox" value="" />  2 large egg whites</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />170g caster sugar</label>
+          <label><input type="checkbox" value="" />  170g caster sugar</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />170gr ground almonds</label>
+          <label><input type="checkbox" value="" />  170gr ground almonds</label>
+          </div>
           <div class="checkbox">
-            <label><input type="checkbox" value="" />1 tbsp amaretto</label>
+            <label><input type="checkbox" value="" />  1 tbsp amaretto</label>
           </div>
           <div class="checkbox">
             <label
-              ><input type="checkbox" value="" />butter or oil for
+              ><input type="checkbox" value="" />  butter or oil for
               greasing</label
             >
           </div>
-        </div>
-        <h1><b>For the Chunky Mandarin Coulis</b></h1>
+    </div><br>
+        <h3><b>For the Chunky Mandarin Coulis</b></h3>
         <!--Coulis-->
+    <div class="label">
         <div class="checkbox">
           <label
-            ><input type="checkbox" value="" />4 tins of mandarins (300gr
+            ><input type="checkbox" value="" />  4 tins of mandarins (300gr
             each)</label
           >
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />45g caster sugar</label>
+          <label><input type="checkbox" value="" />  45g caster sugar</label>
         </div>
         <div class="checkbox">
           <label
-            ><input type="checkbox" value="" />16gr arrowroot (2 sachets)</label
+            ><input type="checkbox" value="" />  16gr arrowroot (2 sachets)</label
           >
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="" />1/2 lemon, juice only</label>
+          <label><input type="checkbox" value="" />  1/2 lemon, juice only</label>
         </div>
-        <h1><b>For the Jewelled chocolate bark</b></h1>
+    </div><br>
+        <h3><b>For the Jewelled chocolate bark</b></h3>
         <!--bark-->
+    <div class="label">
         <div class="checkbox">
-          <label><input type="checkbox" value="" />50g mixed peel</label>
+          <label><input type="checkbox" value="" />  50g mixed peel</label>
         </div>
         <div class="checkbox">
           <label
-            ><input type="checkbox" value="" />1 tbsp Caster
+            ><input type="checkbox" value="" />  1 tbsp Caster
             Sugar(optional)</label
           >
         </div>
         <div class="checkbox">
           <label
-            ><input type="checkbox" value="" />200gr white chocolate, broken
+            ><input type="checkbox" value="" />  200gr white chocolate, broken
             into pieces</label
           >
         </div>
-        <h1><b>To assemble</b></h1>
+    </div><br>
+        <h3><b>To assemble</b></h3>
         <!--to assemble-->
+    <div class="label">
         <div class="checkbox">
-          <label><input type="checkbox" value="" />600ml double cream</label>
+          <label><input type="checkbox" value="" />  600ml double cream</label>
         </div>
-      </div>
-      <div>
+    </div>
+</div>
+<div class="method">
         <h2>Method</h2>
-        <p>
-          <ol>
-         
-           <li>
-            <em>To make the swiss rolls</em>
-            , preheat the oven to 180C/160C Fan/Gas 4.
+        <p class="paragraph">
+            Step 1: <em>To make the swiss rolls, </em>
+            preheat the oven to 180C/160C Fan/Gas 4.
             Grease and line the 2 Swiss roll tins with baking paper. In a large
             bowl, beat the egg and sugar together with an electric hand whisk for
             approximately 5 minutes or until light and pale. Using a metal spoon,
             gently fold in the flour. Divide between the two tins and bake for
-            10–12 minutes or until the sponges are lightly golden and cooked
+            10 minutes or until the sponges are lightly golden and cooked
             through. 
-           </li>
-         <br />
-         <li>
-          Sprinkle some extra caster sugar on two sheets of baking
+           <br /><br>
+          Step 2: sprinkle some extra caster sugar on two sheets of baking
           paper then turn the sponges out onto the sugared paper. Peel off the
           paper from the underside and, while still warm, roll them both up from
           the short end into a tight spiral using the paper to help. Leave to
           cool. 
-          </li>
-          <br />
-          <li>
-              <em>To make the lemon curd</em>
-              , place the egg yolks, granulated sugar, butter,
+          <br /><br>
+             Step 3: <em>To make the lemon curd</em>, place the egg yolks, granulated sugar, butter,
           lemon zest and lemon juice in a glass bowl over a saucepan of
-          simmering water (don’t let the bowl touch the water). Whisk until
+          simmering water (do not let the bowl touch the water). Whisk until
           combined and whisk continuously as the curd cooks until thickened.
           This should take about 15 minutes. Pour into a clean bowl and set
           aside to cool. 
-        </li>
+        <br>
         <br />
-          <li> 
-              <em>To make the St Clement’s jelly</em>
-              , soak the gelatine leaves in cold water for 5 minutes to soften. Using a vegetable
+           Step 4: <em>To make the St Clements jelly</em>, soak the gelatine leaves in cold water for 5 minutes to soften. Using a vegetable
           peeler, peel 6 strips from a lemon and 6 strips from an orange and put
           these into a saucepan with the sugar and 400ml/14fl oz water. Bring to
           a simmer over a medium heat, stirring occasionally until the sugar has
@@ -259,62 +260,47 @@
           oz of both lemon and orange juice. Stir into the pan then strain the
           jelly through a fine sieve into a jug and chill until cool but not
           set. 
-        </li>
-        <br />
-          <li>
-              <em>To make the custard</em>
-          , place the cream in a saucepan over a gentle
+        <br /><br>
+          Step 5: <em>To make the custard</em>, place the cream in a saucepan over a gentle
           heat and bring it up to simmer, stirring occasionally with a wooden
           spoon. In a bowl, whisk together the egg yolks, sugar, cornflour and
           lemon extract, then gradually pour the hot cream into the bowl whilst
           whisking continuously. Immediately return the whole lot back to the
           saucepan and continue whisking over a gentle heat until the custard is
           thick and smooth. Pour the custard into a jug or bowl, cover the
-          surface with greaseproof paper and leave to cool. </li>
-         <br />
-          <li>
-              <em>To make the amaretti biscuits</em>
-              , preheat the oven to 180C/160C Fan/Gas 4. In a large bowl,
+          surface with greaseproof paper and leave to cool. 
+         <br /><br>
+        Step 6: <em>To make the amaretti biscuits</em>, preheat the oven to 180C/160C Fan/Gas 4. In a large bowl,
           beat the egg whites until firm. Mix the sugar and almonds gently into
           it. Add the amaretto and fold in gently until you have a smooth paste.
-        </li>
-        <br />
-        <li>Place some baking paper on a baking tray and lightly brush with butter
+        <br /><br>
+        Step 7: Place some baking paper on a baking tray and lightly brush with butter
           or oil. Using a teaspoon, place small heaps of the mixture
-          approximately 2cm/¾in apart, as they will expand during cooking. Bake
-          for approximately 15–20 minutes or until golden brown. Remove from the
+          approximately 2cm apart, as they will expand during cooking. Bake
+          for approximately 15 minutes or until golden brown. Remove from the
           oven and set aside to cool. 
-        </li>
-        <br />
-          <li>
-            <em>To make the chunky mandarin coulis</em>
-            , strain two tins of mandarins. Discard the juice and put the fruit into a
+        <br /><br>
+          Step 8: <em>To make the chunky mandarin coulis</em>, strain two tins of mandarins. Discard the juice and put the fruit into a
           saucepan with the sugar and heat gently until broken down. Remove from
           the heat. In a small bowl, slake the arrowroot with 2 tablespoons cold
           water then add to the warm mandarins. Add the lemon juice and mix well
           before pouring into a large bowl. Strain the remaining two tins of
-          mandarins and add the fruit to the bowl then leave to cool completely.</li>
-          <br />
-          <li>
-              <em>To make the jewelled chocolate bark</em>
-              , if the peel feels wet or sticky, roll in the caster sugar to absorb any moisture. Melt the white
+          mandarins and add the fruit to the bowl then leave to cool completely.
+          <br /><br>
+          Step 9: <em>To make the jewelled chocolate bark</em>, if the peel feels wet or sticky, roll in the caster sugar to absorb any moisture. Melt the white
           chocolate in a bowl sitting over a saucepan of gently simmering water.
           Pour the white chocolate onto a baking tray lined with baking paper
           and scatter over the mixed peel. Leave to set then break into shards.
-        </li>
-          <br />
-          <li>
-              To assemble, unroll the cooled Swiss rolls and spread with the lemon
+          <br /><br>
+         Step 10: To assemble, unroll the cooled Swiss rolls and spread with the lemon
           curd. Roll back up again and slice one into 2.5cm/1in slices and place
           upright around the bottom edge of the trifle dish so the swirl is
           visible. Slice the other Swiss roll into thicker pieces and use these
           to fill the bottom of the dish, ensuring the top is roughly the same
           level as the slices that line the edge. Use off-cuts of sponge to fill
           any gaps. 
-        </li>
-<br />
-          <li>
-          Pour the St Clement’s jelly over the Swiss roll layer and
+        <br /><br>
+          Step 11: Pour the St Clements jelly over the Swiss roll layer and
           set aside in the fridge to completely set. This will take
           approximately 3 hours. Once set, pour over the custard then arrange a
           single layer of amaretti biscuits, keeping a few back for the top.
@@ -322,34 +308,35 @@
           until soft peaks form then spoon this over the coulis. Crumble over
           the reserved amaretti biscuits and decorate with the chocolate bark
           shards.
-        </li>
-          </ol>
         </p>
       </div>
     </div>
     <hr class="pink-line" />
     <div>
-      <div>
-        <!--Shaunna  suggested doing  this with JS. Don't know how so basic HTML for now-->
-        <h1>Rate this recipe</h1>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-regular fa-heart"></i>
-      </div>
+      <!--Shaunna  suggested doing  this with JS. Don't know how so basic HTML for now-->
+      <h2>Rate this recipe</h1>
+        <div class="hearts">
+      <i class="fa-solid fa-heart"></i>
+      <i class="fa-solid fa-heart"></i>
+      <i class="fa-solid fa-heart"></i>
+      <i class="fa-solid fa-heart"></i>
+      <i class="fa-solid fa-heart"></i>
+    </div>
+    </div>
+    <hr class="pink-line" />
     </main>
     <footer>
-      <nav class="navbar">
+      <nav  id="footer" class="navbar">
         <a class="nav-link" href="#">Features</a>
         <a class="nav-link" href="./about.html">About</a>
         <a class="nav-link" href="./index.html#testimonials">Testimonials</a>
         <a class="nav-link" href="./index.html#contact">Contact</a>
         <a class="nav-link" href="#">Download</a>
       </nav>
+      <hr class="black-line"> 
       <p id="address">
         12 Cupcake Street, Manchester, M1 2AB<br />
-        <i class="fa-solid fa-copyright"></i>Bake First Girls
+        <i class="fa-solid fa-copyright"></i> Bake First Girls
       </p>
     </footer>
   </body>
