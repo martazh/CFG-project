@@ -44,7 +44,8 @@ p {
 .blue-cupcakes {
     width: 50%;
     padding-bottom: 2%;
-}
+    }
+
 .pink-line {
     border: 2px solid #F29EB0;
 }
@@ -128,3 +129,17 @@ p {
 .recipedescription {
     text-align: center;
 }
+
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+ }
+
+ td {
+     text-align: center;
+ }
+ 
