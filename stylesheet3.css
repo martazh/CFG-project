@@ -79,6 +79,7 @@ p {
 }
 .fa-solid {
     color: #F29EB0;
+    padding: 2px;
 }
 #address {
     font-family: montserrat, monospace;
