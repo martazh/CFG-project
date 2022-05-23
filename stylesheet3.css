@@ -99,23 +99,23 @@ p {
     pointer-events: none;
 }
 .hearts a {
-    opacity: 50%;
+    opacity: 15%;
     cursor: pointer;
     padding: 3px;
 }
 
 .hearts:hover a {
-    opacity: 100%;
+    opacity: 40%;
 }
 
 .hearts a:hover {
-    opacity: 100%;
+    opacity: 40%;
 }
 
 .hearts a:hover ~ a {
-    opacity: 50%;
+    opacity: 15%;
 }
 
 .hearts a.active {
-    opacity: 100%;
+    opacity: 40%;
 }
